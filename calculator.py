@@ -13,7 +13,6 @@ def main():
 	# And now the second number
 	secondNumber = float(input("What is the second number: "))
 
-
 	# Let's initialize a variable that will hold our answer
 	result = 0
 
