@@ -32,14 +32,13 @@ def main():
 	elif operationSymbol == '*':
 		result = firstNumber * secondNumber
 	# Fourth, division
-	elif operationSymbol =='/':
+	elif operationSymbol == '/':
 		result = firstNumber / secondNumber
 	# This says that there is an invalid operation symbol
 	# The program then will shut down
 	else:
 		print("Error completing operation; Exiting...")
 		return
-
 
 	# Now we can print the equation with the input
 	print("{} {} {} = {}".format(firstNumber, operationSymbol, secondNumber, result))
@@ -50,6 +49,5 @@ def main():
 	# Let's return the main function to shut
 	# down the program
 	return
-
 
 main()
